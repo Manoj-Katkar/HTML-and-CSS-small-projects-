@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(255, 255, 0, 0.648);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* in  the following way we can make the content at the centre  IMP */
+#container{
+    display: flex;
+    /* it will horizontal placement done  */
+    justify-content: center;
+
+    /* now vertical I have to place  */
+    align-items: center;
+
+    height: 100vh;
+    /* background-color: aqua; */
+    width: 35%;
+    
+    /* mock  alpha netflix also the mobile version should be  tuesday mock on the html and css and also the task will be given  */
+
+   
+}
+
+form{
+    /* background-color: rgba(245, 245, 245, 0.756); */
+
+    width: 25%;
+    /* to reduce the sharpness of the border  */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#first{
+    /* if I want the change the text color  */
+    color: red;
+}
+
+/* now How to change the placeholder color  */
+#first::placeholder{
+    color: blue;
+}
+
+#second{
+    color: red;
+}
+
+#second::placeholder{
+    color: blue;
+}
+
+#third{
+    color: red;
+}
+
+#third::placeholder{
+    color: blue;
+}
+
+#fourth{
+    color: red;
+}
+
+#fourth::placeholder{
+    color: blue;
+}

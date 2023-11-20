@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="shortcut icon" href="./images/facebook logo.png" type="image/x-icon">
+    <!-- now link the google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200;300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- link for the icons -->
+    <script src="https://kit.fontawesome.com/cea9806c3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <!-- action will use if the all the data is correct then move to which website our main page  -->
+
+        <form action="https://bard.google.com/chat?utm_source=sem&utm_medium=paid-media&utm_medium=paid-media&utm_campaign=q4enIN_sem6https:%2F%2Fbard.google.com%2Fchat%3Futm_source%3Dsem&utm_campaign=q4enIN_sem6">
+            <label for="first">First Name</label><br>
+            <input type="text" id="first" placeholder="Enter the first name"><br>
+
+            <label for="second">Last Name</label><br>
+            <input type="text" id="second" placeholder="Enter the last name"><br>
+
+            <label for="third">E-Mail</label><br>
+            <input type="email" id="third" placeholder="Enter the E-Mail"><br>
+
+            
+
+            <label for="fourth">Mobile-No</label><br>
+            <input type="number" id="fourth" placeholder="Enter Mobile-No"><br>
+
+            <label for="gender" >Gender</label>
+            
+            <!-- to create the circle to allow user to chhose the option  -->
+
+            <input type="radio" id="gender" name="gender-select-one-at-time" class="select"><label for="">Male</label>
+            <input type="radio" name="gender-select-one-at-time" class="select"> <label for="">Female</label>
+            <input type="radio" name="gender-select-one-at-time" class="select"> <label for="">Others</label><br>
+
+            <label for="">D.O.B</label><br>
+            <input type="date"><br>
+
+            <label for="">Upload Picture</label><br>
+            <input type="file"><br>
+
+            <label for="pass">Create Password</label><br>
+            <input type="password" id="pass"> <br>
+
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm"> <br>
+
+
+            <input type="checkbox" id="check" required> 
+            <label for="check">I have Read and understood T & C Conditions</label>
+
+            <!-- if  want the user to enter the url of any linkedIn or any social public profile  -->
+
+            <!-- <input type="url" placeholder="enter the  url"><br> -->
+
+            <!-- for changing the color -->
+            <!-- <input type="color"> -->
+
+            <!-- only submit button we can create using the input  tag  -->
+
+            <!-- <input type="submit"> -->
+
+            <!-- used to increase or decrease the volume in music player -->
+            <input type="range"><br>
+
+            <select name="" id="">
+                <!-- how to diss-appear the select option  -->
+
+                <option value="" hidden>Select</option>
+
+                <option value="">India</option>
+                <option value="">Australia</option>
+                <option value="">Newzeland</option>
+                <option value="">South Africa</option>
+            </select><br>
+
+            <label for="">Feedback</label><br>
+            <!-- if we ant the large text Area it will automatically become the scrolable content if we type more  -->
+            <textarea name="" id="" cols="20" rows="5"></textarea><br>
+            
+            <!-- always specify the type of the button we have created  -->
+
+            <button type="submit">Sign Up</button>
+            <button type="reset">Cancel</button>
+        </form>
+
+    </div>
+</body>
+</html>
