@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* adding the font from the google fonts  */
+    /* font-family: 'Sofia Sans Semi Condensed', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    
+    background-image: url(./images/background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+
+}
+
+
+hr{
+    border: 2px solid gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 48px;
+    margin-left: 140.375;
+    margin-right: 140.375;
+    margin: 0 140.375px;
+    /* width: 80%; */
+
+
+}
+
+#left img{
+    width: 100%;
+    height: 5rem;
+}
+
+#TV-Shows{
+    width: 80%;
+    margin: auto;
+    /* background-color: white; */
+    text-align: center;
+    color: white;
+   
+}
+#TV-Shows h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    
+}
+
+#TV-Shows h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#TV-Shows input{
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.46);
+    border: 2px solid grey;
+    border-radius: 6px;  
+}
+
+#TV-Shows input::placeholder{
+    font-size: 1rem;
+    
+}
+
+#TV-Shows button{
+    width: 11.8rem; /* You can adjust this value as needed */
+    height: 3.5rem; /* You can adjust this value as needed */
+    font-size: 1.5rem; /* You can adjust this value as needed */
+    font-weight: 300;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0;
+    margin-left: 9px;
+}
+
+#tv-div{
+    margin-top: 5rem;
+}
+
+
+
+
+#Enjoy{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+#tv-left{
+    width: 50%;
+    /* margin: auto; */
+}
+
+#tv-left h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+#tv-left p{
+    font-size: 1.5rem;
+
+}
+#tv-right{
+    width: 50%;
+    position: relative;
+    /* margin: auto; */
+}
+
+#tv-right img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    
+}
+
+#tv-right video{
+    position: absolute;  /*vedio will not occupy the space*/
+    left: 13.2%;
+    top: 20.5%;
+    width: 73%;
+    z-index: 1;
+
+}
+
+#main-section{
+    background-color: rgba(0, 0, 0, 0.684);
+    padding-bottom: 32%;
+}
