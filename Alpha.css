@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif; /*font family */
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.2%;
+}
+
+#left h1{
+    /* 1 rem = 16 px as a inline empty container go for the span tag for block go for the div */
+
+    font-size: 1rem;
+    color: white;
+}
+
+#left h1 span{
+    font-weight: 100;
+}
+
+#header-right-content{
+    display: flex;
+    /* for vertical axis alignment  */
+    align-items: center;
+    list-style-type: none;  /*to remove the circle*/
+    margin: 0;
+   
+
+}
+
+#header-right-content a{
+    text-decoration: none ;  /*to remove the underline*/
+    padding: 1rem;           /*to the distance between the list items*/
+    display: block;
+}
+
+#header-right-content button{
+    font-size: 1rem;
+    width: 5.2rem;
+    height: 2.2rem;
+    border-radius: 5px; /*to convert the sharp edges with curve edges*/
+    color: white;
+    background-color: transparent;
+    border: 1.5px none white;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+#header-right-content a{
+    color: white;
+}
+#layout-drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.826);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 0;
+    width: 180%;
+    display: none;
+    
+}
+
+#menu a{
+    color: black;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.511);
+}
+#menu a:hover{
+    
+    background-color: rgba(255, 166, 0, 0.668);
+    color: white;
+}
+#layout-drop:hover #menu{
+    display: block;
+}
+
+#submenu{
+    position: relative;
+}
+
+#Option{
+    list-style-type: none;
+    padding: 0;
+    top: 0;
+    right: 100%;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+#Option a{
+    color: black;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.511);
+    background-color: rgba(255, 255, 255, 0.826);
+}
+#Option a:hover{
+    
+    background-color: rgba(255, 166, 0, 0.668);
+    color: rgba(255, 255, 255, 0.573);
+}
+
+#submenu:hover #Option{
+    display: block;
+}
+
+
+#alpha{
+    /* display: flex; */
+    /* justify-content: center;  horizontal center */
+    /* background-color: white; */
+
+    /* other way to make horizontal Center   we have to change the width for that */
+    /* width: 40%;
+    margin: auto; */
+    text-align: center;
+    /* margin-top: 7rem; */
+}
+
+#alpha h1{
+    color: rgba(255, 255, 255, 0.974);
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: 85;
+    
+}
+
+#alpha p{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    
+}
+
+#alpha button{
+    width: 12%;
+    height: 3rem;
+    border-radius: 1px;
+    border: none;
+    color: grey;
+    margin-right: 1rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+#alpha #Learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.764);
+}
+
+#alpha #its-alpha-div{
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+
+#mobile{
+    background-color: white;
+    width: 67%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2rem;
+    margin-top: rem;
+    color: grey;
+    
+    /* text-align: center; */
+}
+
+#mobile h1{
+    font-size: 2.5rem;
+    font-weight: 85;
+}
+
+#mobile p{
+    font-size: 1.25rem;
+    border-top: 2px solid rgba(128, 128, 128, 0.825);
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#mobile img{
+    /* to fit with the paren width  */
+    width: 100%;
+}
+
+
+
