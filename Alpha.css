@@ -5,6 +5,7 @@ body{
     background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #f5f5f5;
 
 }
 header{
@@ -198,3 +199,113 @@ header{
 
 
 
+
+/* third session */
+#icon{
+    background-color: white;
+    width: 67%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    /* use % for width and position:  */
+}
+
+#icon div{
+    /* all 4 div will be accesed */
+    width: 45%;
+    display: inline-block;
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+
+/* Access the each icon and then change its property  */
+#icon .fa-bolt-lightning{
+    /* how we are changing the font in that way only I have to change the all for the icon also  */
+    color: white;
+    background-color: #e89980;
+    font-size: 1.5rem;
+    /* if we want the perfect circle then go for the radius  */
+    border-radius: 42px;
+    padding: 2rem 2rem;
+    /* width: 25%; */
+    
+}
+
+#icon .fa-chart-area{
+    /* how we are changing the font in that way only I have to change the all for the icon also  */
+    color: white;
+    background-color: #7fcdb8;
+    font-size: 1.5rem;
+    /* if we want the perfect circle then go for the radius  */
+    border-radius: 42px;
+    padding: 2rem 2rem;
+}
+
+#icon .fa-cloud{
+    /* how we are changing the font in that way only I have to change the all for the icon also  */
+    color: white;
+    background-color: #90b0ba;
+    font-size: 1.5rem;
+    /* if we want the perfect circle then go for the radius  */
+    border-radius: 42px;
+    padding: 2rem 2rem;
+}
+
+
+#icon .fa-lock{
+    /* how we are changing the font in that way only I have to change the all for the icon also  */
+    color: white;
+    background-color: #e5cb95;
+    font-size: 1.5rem;
+    /* if we want the perfect circle then go for the radius  */
+    border-radius: 42px;
+    padding: 2rem 2rem;
+}
+
+/* Acess the first div  */
+#icon #div-1{
+    border-right: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+    position: relative;
+    /* now I have to move the content  */
+    top: 2px;
+    left: 3px;
+
+}
+
+#icon #div-4{
+    border-top: 2px solid  #e8e8e8;
+    border-left: 2px solid #e8e8e8;
+}
+
+/* acess the card vala part  */
+
+
+#card{
+    width: 67%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex; 
+    justify-content: space-between;
+}
+
+#card div img{
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+    
+}
+
+#card div{
+    background-color: white;
+    width: 45%;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#card div button{
+
+}

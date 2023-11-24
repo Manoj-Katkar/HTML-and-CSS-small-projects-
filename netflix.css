@@ -194,19 +194,19 @@ header{
 
 
 
-#everywhere-right image{
+#EveryWhere #everywhere-right image{
     width: 100%;
     position: relative;
-    z-index: 2;
+    z-index: 5;
 }
 
-#everywhere-right video{
+#EveryWher #everywhere-right video{
     /* I want my vedio shold not occupy the any space  */
     position: absolute;
     left: 23%;
     top: 11.5%;
     width: 66%;
-    z-index: 1;
+    z-index: 0;
 }
 
 #everywhere-left h1{
