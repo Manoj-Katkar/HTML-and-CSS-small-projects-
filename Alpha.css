@@ -306,6 +306,138 @@ header{
 
 }
 
-#card div button{
+/* changing the button properties */
 
+
+#card div button{
+    width: 7.12rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.751);
+    border: 2px solid rgba(128, 128, 128, 0.628);
+    border-radius: 5px;
+}
+
+/* adding the over effect  */
+#card div button:hover{
+    background-color: rgba(128, 128, 128, 0.16);
+}
+
+
+#Signup {
+    width: 100%;
+    margin: auto;
+    height: 50%;
+    margin-top: 2rem;
+    background-color: #e89980;
+    
+    
+}
+
+#Signup #sign-div{
+    width: 40%;
+    margin: auto;
+    color: white;
+    background-color: #e89980;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0;
+    
+
+    
+}
+#Signup #sign-div h1{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+#Signup #sign-div p{
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+/* now Acess the input tag  */
+#Signup #sign-div input{
+
+    
+    height: 2.4rem;
+    font-size: 1.2rem;
+    padding: 0 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.297);
+}
+
+/* now Acess the input tag  */
+#Signup #sign-div input::placeholder{
+    /* now I have to reduce the font size and also change the font color; */
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+/* now access  the button  */
+#Signup #sign-div button{
+    width: 6.12rem;
+    height: 2.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #e89980;
+}
+
+/* Now Designing the footer  */
+footer{
+    padding: 4em 0 6em 0;
+    text-align: center;
+}
+footer #footer-1{
+    /* I want the all the list iteams in one line  */
+
+    list-style-type: none;
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    /* background-color: red; */
+    
+}
+
+footer #footer-1 a{
+    /* to change the all logo color  */
+    color: gray;
+}
+
+
+/* now the access the second ul  */
+footer #footer-2{
+    /* remove the bullet points  */
+    list-style-type: none;
+    /* because a is the block level element and ul also  */
+    /* so now I want each should come in single line  */
+
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+footer #footer-2 a{
+
+    /* to change the underline type  */
+    text-decoration: dashed;
+}
+
+/* now to increase the size of the each icon */
+footer #footer-1 .fa-brands{
+
+    color: rgba(128, 128, 128, 0.571);
+    font-size: 1.5rem;  /*this will increase the size of  the any icon */
+}
+
+footer #footer-1 .fa-solid{
+    color: red;    color: rgba(128, 128, 128, 0.571);
+        
+    font-size: 1.5rem;  /*this will increase the size of  the any icon */
 }
