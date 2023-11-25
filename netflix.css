@@ -194,19 +194,19 @@ header{
 
 
 
-#EveryWhere #everywhere-right image{
+#EveryWhere #everywhere-right img{
     width: 100%;
     position: relative;
     z-index: 5;
 }
 
-#EveryWher #everywhere-right video{
+#EveryWhere #everywhere-right video{
     /* I want my vedio shold not occupy the any space  */
     position: absolute;
     left: 23%;
-    top: 11.5%;
-    width: 66%;
-    z-index: 0;
+    top: 13.5%;
+    width: 58%;
+    z-index: 1;
 }
 
 #everywhere-left h1{
@@ -228,7 +228,9 @@ header{
     /* now I want the vertical alignment should be center  */
     align-items: center;
 } 
-
+#kids{
+    width: 100%;
+}
 #kids-right h1{
     font-size: 2.5rem;
     font-weight: 800;
@@ -241,4 +243,40 @@ header{
 /* accessing the border  */
 hr{
     border: 3px solid grey;
+}
+
+
+/* ---------------------------Mobile Version --------------------------------*/
+
+@media (max-width:600px){
+
+    #Enjoy{
+        width: 90%;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
+ 
+    }
+    #tv-left{
+        width: 100%;
+        text-align: center;
+        /* margin: auto; */
+    }
+    #tv-right{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

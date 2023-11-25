@@ -1,0 +1,109 @@
+/* body{
+    background-color: rgba(255, 0, 0, 0.496);
+   
+} */
+
+/* chnaging the all the h1 tag colors for first desktop */
+/* #desktop{
+    color: red;
+}
+#tab{
+    color: blue;
+}
+
+#mobile{
+    color: purple;
+} */
+
+/* body{
+    background-color: black;
+    
+} */
+
+/* now doing the changes for the website that will get visible in mobile  */
+/* MObile Version */
+/* @media (max-width:600px) {
+    body{
+        background-color: black;
+    }
+
+    #desktop{
+        color: aqua;
+    }
+    #tab{
+        color: purple;
+    }
+    
+    #mobile{
+        color: chocolate;
+    }
+    
+
+} */
+
+/* maximum size for the mobile version  is 600 px it is 0 to 600 px because each mobile size will be different 
+whenever the screen size of the device will be 0 to 600 px then only it will work  
+media Queries are similar to the if else
+
+when you want make the changes to differnt versions then mension otherwise do not mension
+*/
+
+/* for tab version min width = 601 px to 1000px */
+/* tab version */
+/* @media (min-width:601px) and (max-width:1000px){
+    body{
+        background-color: rgba(0, 0, 255, 0.662);
+    }
+
+    #desktop{
+        color: magenta;
+    }
+    #tab{
+        color: white;
+    }
+    
+    #mobile{
+        color: green;
+    }
+
+} */
+
+/* how to hide the any one or two devices  */
+
+#mobile{
+    display: none;
+}
+
+#tab{
+    display: none;
+}
+
+/* now I want to do the changes for the mobile version  */
+@media (max-width:600px){
+    #mobile{
+        /* to appear the mobile we can use any display propery that is inline , block , inline-block or flex  */
+        display: flex;
+    }
+
+    #desktop{
+        display: none;
+    }
+
+    /* for safer side do tab do not display it is not required but on safer side we should do  */
+}
+
+/* now for the tab version only tab should appear  */
+@media (min-width:601px) and (max-width:1000px){
+    /* here in the tab version I want only tab should appear  */
+    #tab{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+
+    /* for safer side do mobile also none  */
+    #mobile{
+        display: none;
+    }
+}
