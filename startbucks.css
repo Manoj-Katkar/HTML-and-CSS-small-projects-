@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif; /*font family */
+}
+
+header{
+    margin: 0;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.402);
+    background-color: white;
+}
+header img{
+    width: 80%;
+    display: inline;
+}
+
+header #header-left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 10%;
+    margin: 0;
+    padding-left: 2%;
+    
+}
+
+header #header-left a{
+
+    color: black;
+    font-weight: 800;
+    /* now to give the space between the characters of the words  */
+    letter-spacing: 2.5px;
+
+    text-decoration: none;
+}
+
+/* reducing the width of the left division  */
+
+header #header-left{
+
+    background-color: white;
+    width: 30%;
+    
+}
+
+header #header-right{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 35%;
+
+
+    
+}
+
+header #header-right a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    /* now to give the space between the characters of the words  */
+    letter-spacing: 2.5px;
+    padding-right: 1.5rem;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+/* to change the location icon size  */
+header #header-right .fa-location-dot{
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+/* now I have to change the buttons size   I have to acess the buttons individually*/
+header #header-right #left-button{
+    width: 6rem;
+    height: 2.5rem;
+    font-weight: 800;
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+header #header-right #right-button{
+    width: 6rem;
+    height: 2.5rem;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
