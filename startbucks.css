@@ -13,6 +13,7 @@ header{
     background-color: white;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.134);
     background-color: white;
+    margin-bottom: 2rem;
 }
 header img{
     width: 70%;
@@ -98,3 +99,348 @@ header #header-right #right-button{
     border: 1.5px solid black;
     border-radius: 10px;
 }
+
+/* -------------Second Section ------------ */
+
+#Rewards{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Rewards #Rewards-left{
+    background-color: #006241;
+    width: 50%;
+    
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+
+    
+
+}
+#Rewards #Rewards-left h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#Rewards #Rewards-left p{
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+
+#Rewards #Rewards-left button{
+    width: 8rem;
+    height: 2.2rem;
+    font-weight: 800;
+    color: white;
+    background-color: #006241;
+    border: 1.5px solid rgba(255, 255, 255, 0.605);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+
+
+}
+
+
+
+#Rewards #Rewards-right{
+    
+    width: 50%;
+    border: none;
+}
+
+#Rewards #Rewards-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ----------Section 3 --------- */
+#Party{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Party #Party-left{
+    width: 50%;
+    border: none;
+}
+
+#Party #Party-left img{
+    width: 100%;
+    height: 100%;
+}
+
+#Party #Party-right{
+    background-color: #ad96dc;
+    width: 50%;
+    
+    color: #1e3932;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#Party #Party-right h1{
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 0%;
+  letter-spacing: 3px;
+}
+
+#Party #Party-right p{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0%;
+  }
+
+
+#Party #Party-right button{
+    width: 8rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e3932;
+    background-color: #ad96dc;
+    border: 1.5px solid #1e3932a1;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+  /* --------------------section 4 ------------------- */
+#Bar{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+#Bar #Bar-left{
+    background-color: #76232f;
+    width: 50%;
+    
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+#Bar #Bar-left h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0%;
+    letter-spacing: 3px;
+}
+
+#Bar #Bar-left p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0%;
+    margin-top: 1.5rem;
+}
+
+#Bar #Bar-left button{
+    width: 8rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #76232f;
+    border: 1.5px solid white;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#Bar #Bar-right{
+    width: 50%;
+    border: none;
+}
+
+#Bar #Bar-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+  /* --------------------section 5 ------------------- */
+
+#tradition{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#tradition #tradition-left{
+    width: 50%;
+    border: none;
+}
+
+#tradition #tradition-right{
+    background-color:  #dc0032;
+    width: 50%;
+    
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#tradition #tradition-left img{
+    width: 100%;
+    height: 100%;
+}
+
+#tradition #tradition-right h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0%;
+    letter-spacing: 3px;
+}
+
+#tradition #tradition-right p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0%;
+    margin-top: 1.5rem;
+}
+
+#tradition #tradition-right button{
+    width: 8rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #dc0032;
+    border: 1.5px solid rgba(255, 255, 255, 0.636);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+  /* --------------------section 6 ------------------- */
+#Holiday{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Holiday #Holiday-left{
+    background-color: #1e3932;
+    width: 50%;
+    
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+#Holiday #Holiday-right{
+    width: 50%;
+    border: none;
+}
+
+#Holiday #Holiday-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#Holiday #Holiday-left h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#Holiday #Holiday-left p{
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
+
+#Holiday #Holiday-left button{
+    width: 7rem;
+    height: 2.2rem;
+    font-weight: 800;
+    color: white;
+    background-color:  #1e3932;
+    border: 1.5px solid rgba(255, 255, 255, 0.688);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+
+
+}
+
+
+  /* --------------------section 7 ------------------- */
+
+#Kindness{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Kindness #Kindness-left{
+    width: 50%;
+    border: none;
+}
+
+#Kindness #Kindness-right{
+    background-color: #156043;
+    width: 50%;
+    
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#Kindness #Kindness-left img{
+    width: 100%;
+    height: 100%;
+}
+
+#Kindness #Kindness-right h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+#Kindness #Kindness-right p{
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+#Kindness #Kindness-right button{
+    width: 9rem;
+    height: 2.2rem;
+    font-weight: 800;
+    color: white;
+    background-color:  #156043;
+    border: 1.5px solid rgba(255, 255, 255, 0.688);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+
+  /* --------------------section 8 ------------------- */
+
+#stores{
+    /* now I want this section horizontal and also to the vertical center align  */
+    
+}
+
