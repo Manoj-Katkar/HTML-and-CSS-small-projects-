@@ -225,25 +225,198 @@ header{
     margin: auto;
     /* now I want in one line  */
     display: flex;
-    /* now I want the vertical alignment should be center  */
-    align-items: center;
+    justify-content: center;
 } 
-#kids{
+
+#Kids #kids-left{
+    width: 50%;
+}
+
+#Kids #kids-right{
+    width: 50%;
+    padding-top: 3rem;
+    margin-left: 1rem;
+} 
+
+#Kids #kids-left img{
     width: 100%;
 }
+
 #kids-right h1{
     font-size: 2.5rem;
     font-weight: 800;
 }
 
 #kids-right p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 /* accessing the border  */
 hr{
     border: 3px solid grey;
 }
+
+
+/* Second Lat Section  */
+#FAQ{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: auto;
+    
+/* #2d2d2d */
+}
+
+#FAQ h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#FAQ #faq-1{
+    position: relative;
+}
+
+#FAQ #faq-1 i{
+    display: inline-block;
+}
+
+#FAQ #faq-1 h3{
+    font-size: 2rem;
+    background-color: #2d2d2d ;
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+    position: sticky;
+}
+
+#FAQ #faq-1 #0 .fa-solid{
+
+    font-size: 3rem;
+    padding: 0;
+    top: 0%;
+    right: 0%;
+
+}
+#FAQ #faq-2{
+
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6rem;
+    padding-top: 2rem;
+}
+
+#FAQ #faq-2 input{
+    color: white;
+    font-size: 1.7rem;
+    height: 3.2rem;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.423);
+    border-radius: 10px;
+    padding: 0px 8px 10px 10px;
+}
+
+#FAQ #faq-2 input::placeholder{
+    font-size: 1rem;
+    padding-top: 0%;
+    color: white;
+}
+
+
+#FAQ #faq-2 button{
+    width: 11.8rem; /* You can adjust this value as needed */
+    height: 3.5rem; /* You can adjust this value as needed */
+    font-size: 1.5rem; /* You can adjust this value as needed */
+    font-weight: 300;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0;
+    margin-left: 9px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: 2rem;
+}
+footer a{
+    background-color: black;
+    color: white;
+}
+
+footer h3{
+    padding-left: 9rem;
+}
+
+
+footer #footer-div{
+    width: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 0%;
+    
+}
+
+footer #footer-div a{
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+footer #footer-div ul{
+    list-style-type: none;
+}
+footer #footer-div ul li{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---------------------------Mobile Version --------------------------------*/
