@@ -124,7 +124,7 @@ header{
     /* width: 40%;
     margin: auto; */
     text-align: center;
-    /* margin-top: 7rem; */
+    margin-top: 7rem;
 }
 
 #alpha h1{
@@ -160,7 +160,7 @@ header{
 }
 
 #alpha #its-alpha-div{
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     padding-bottom: 8rem;
 }
 
@@ -172,7 +172,7 @@ header{
     text-align: center;
     border-radius: 5px;
     padding-top: 2rem;
-    margin-top: rem;
+    margin-top: 0rem;
     color: grey;
     
     /* text-align: center; */
@@ -440,4 +440,101 @@ footer #footer-1 .fa-solid{
     color: red;    color: rgba(128, 128, 128, 0.571);
         
     font-size: 1.5rem;  /*this will increase the size of  the any icon */
+}
+
+/* to remove the icon for the destop version  */
+#mobile-menu{
+    display: none;
+}
+
+/* ---------------------------Mobile Version --------------------------------*/
+
+@media (max-width:600px){
+    body{
+
+        
+        background-size: 180%;
+        /* we have to move the background-image position  
+        center = it is for x and also for the y axis*/
+        background-position-x: center;
+       
+    
+    }
+
+    /* now I want the display icon should be visible in mobile version  */
+    #mobile-menu{
+        display: inline-block;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.291);
+        padding: 7px 20px;
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    /* we dont want header section for  the mobile version  */
+
+    header{
+        display: none;
+    }
+
+    /* acess the alpha ::selection */
+     /* ----------alpha section ------------------ */
+    #alpha{
+        width: 85%;
+        margin: auto;
+        margin-top: 0rem;
+        
+    }
+
+    #alpha h1{
+        font-size: 2rem;
+    }
+    
+    #alpha p{
+        font-size: 1.2rem;
+    }
+
+    #alpha button{
+        width: 100%;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+    }
+
+    #alpha #its-alpha-div{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    /* ----------Mobile section ------------------ */
+    #mobile{
+        
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0rem;
+    }
+
+    #mobile h1{
+        font-size: 1.5rem;
+    }
+    
+    #mobile p{
+        font-size: 1.1rem;
+        width: 95%;
+    }
+    br{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
