@@ -441,6 +441,126 @@ header #header-right #right-button{
 
 #stores{
     /* now I want this section horizontal and also to the vertical center align  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+
     
 }
 
+  /* --------------------section 9 ------------------- */
+#paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+#paragraph a{
+    display: block;
+    text-align: center;
+
+}
+
+
+
+  /* --------------------section 10 footer ------------------- */
+
+footer{
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.354);
+
+}  
+
+footer #main-footer{
+    width: 85% ;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.511);
+    position: relative;
+    left: 4%;
+    right: 0%;
+    
+}
+
+footer #main-footer div{
+    width: 20%;
+    height: 100%;
+}
+
+footer #main-footer div ul{
+
+    list-style-type: none;
+    padding-left: 0%;
+
+
+}
+
+footer #main-footer div ul a{
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+footer #main-footer div ul li{
+    margin-bottom: 10px;
+}
+
+footer #main-footer div h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+footer #bottom-footer{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-left: 5rem;
+
+}
+
+footer #bottom-footer ul{
+    list-style-type: none;
+    padding-left: 0%;
+
+}
+
+footer #bottom-footer a{
+    color: black;
+    text-decoration: none;
+
+}
+
+footer #bottom-footer #bottom-footer-1 {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    color: black;
+    
+}
+/* to increase the size of the icon  */
+footer #bottom-footer #bottom-footer-1 .fa-brands{
+    
+    font-size: 2rem;  /*this will increase the size of  the any icon */
+    border-radius: 4rem;
+}
+
+footer #bottom-footer #bottom-footer-2{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
